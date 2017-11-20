@@ -8,9 +8,9 @@
 
 使用http-server:
 
-1、管理员CMD全局安装http-server : npm install http-server -g
-2、进入项目根目录（或者项目的任意目录）
-3、敲入命令：http-server。
+1. 管理员CMD全局安装http-server : npm install http-server -g
+2. 进入项目根目录（或者项目的任意目录）
+3. 敲入命令：http-server。
 	此时应该会有类似的反馈：
 	Starting up http-server, serving ./
 	Available on:
@@ -21,9 +21,9 @@
 	或者可以修改监听端口 ： http-server -p 8081  好了，刚刚的8080已经不能访问
 	试试8081吧。
 	
-4、大功告成，去访问试试吧！
+4. 大功告成，去访问试试吧！
 
-5、查看更多  http-server -h
+5. 查看更多  http-server -h
 
 
 
