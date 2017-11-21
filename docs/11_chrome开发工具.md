@@ -19,15 +19,17 @@
 
 ## chrome62新增功能
 [原文链接](https://developers.google.com/web/updates/2017/08/devtools-release-notes)
-1. console支持顶级await关键字
-2. 支持屏幕截图（ctrl + alt + c + 鼠标左键）
-3. css Grid 高亮
-4. 根据构造函数查询实例
-    queryObject(constructor) //将返回实例数组
-5. console支持自定义（negative filters）过滤输出
-6. Network支持导入HAR文件
+####1. console支持顶级await关键字
+####2. 支持屏幕截图（ctrl + alt + c + 鼠标左键）
+####3. css Grid 高亮
+####4. 根据构造函数查询实例
+```javascript 1.7
+queryObject(constructor);//将返回实例数组
+```
+####5. console支持自定义（negative filters）过滤输出
+####6. Network支持导入HAR文件
     - 直接拖放即可
-7. 预览缓存资源
-8. 更易预测的缓存调试
+####7. 预览缓存资源
+####8. 更易预测的缓存调试
     - Cache Storage 会实时更新
-9. Coverage 标签代码使用率判定将细到块级代码。（62以前是函数级）
+####9. Coverage 标签代码使用率判定将细到块级代码。（62以前是函数级）
