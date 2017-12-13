@@ -25,6 +25,7 @@ su - userName		切换到普通用户
 ```
 
 ```
+查看hdfs: hadoop fs -ls /user/processuser/bpmnDefs/process-6*
 3.4.4.0 process-site.properties文件所在位置：/usr/leap/3.4.4.0/process/var/lib/process/webapps/TaskSchedule/WEB-INF/classes
 204部署路径：
 /usr/leap/3.4.3.1/process/var/lib/process/webapps/TaskSchedule
