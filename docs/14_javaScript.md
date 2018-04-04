@@ -31,5 +31,7 @@
 
  ```
  jquery的方式看起来像ajax请求，但本质还是jsonp
+ 
+ #### note:jsonp只支持get请求。使用cors，客户端可以正常使用普通异步请求。兼容老浏览器可以考虑使用jsonp
 
 
