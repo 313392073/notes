@@ -52,3 +52,5 @@
 children 的优先级低于component 和 render，三者只能使用其一。
 
 -location 路由匹配默认匹配
+
+Browser
