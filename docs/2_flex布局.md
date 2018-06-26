@@ -18,3 +18,7 @@
 	flex				前三个属性的缩写。快捷值：auto(1 1 auto : 自适应) none(0 0 auto:固定大小)
 	align-self			控制单个项目的对齐方式
 ### 在将一个盒模型布局的界面改为flex布局时发现的一点：不利于扩展的代码坚决不能留，不能图一时简便导致后期难以维护。切记！
+
+align-items  项目在交叉轴上的对齐方式
+justify-content  项目在主轴上的对其方式
+align-content   多根轴线的对齐方式
